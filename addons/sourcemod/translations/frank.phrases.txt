@@ -1,0 +1,39 @@
+"Phrases"
+{
+	"Rank_Menu"
+	{
+		"en"		"Choose your Rank:"
+		"pt"		"Escolha seu Rank:"
+		"zho"		"選擇你的牌位:"
+	}
+	"Rank_Set"
+	{
+		"en"		"[SM] Your Rank is"
+		"pt"		"[SM] Escolheu o Rank"
+		"zho"		"[SM] 你的牌位現在是"
+	}
+	"ProfileRank_Menu"
+	{
+		"en"		"Choose your Profile Level:"
+		"pt"		"Escolha seu Nível de Perfil:"
+		"zho"		"選擇你的個人檔案等級:"
+	}
+	"ProfileRank_Set"
+	{
+		"en"		"[SM] Your Profile Level is"
+		"pt"		"[SM] Escolheu o Nível de Perfil"
+		"zho"		"[SM] 你的個人檔案等級現在是"
+	}
+	"Coin_Menu"
+	{
+		"en"		"Choose your Coin:"
+		"pt"		"Escolha seu Coin:"
+		"zho"		"選擇你的徽章:"
+	}
+	"Coin_Set"
+	{
+		"en"		"[SM] Your Coin is"
+		"pt"		"[SM] Escolheu o Coin"
+		"zho"		"[SM] 你的徽章現在是"
+	}
+}
