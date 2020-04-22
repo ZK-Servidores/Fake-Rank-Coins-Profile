@@ -8,8 +8,6 @@ env:
     - HOME=ftp.toastdev.de/plugins
   matrix:
     - SOURCEMOD=1.9
-    - SOURCEMOD=1.10
-    - SOURCEMOD=1.11
 
 before_install:
   - sudo apt-get update
