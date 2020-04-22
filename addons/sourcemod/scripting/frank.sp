@@ -37,7 +37,7 @@ ConVar g_ShowCoins;
 ConVar g_ShowProfileRanks;
 
 public Plugin myinfo = {
-	name = "[CS:GO] Fake Competitive Ranks/Coins/Profile",
+	name = "[ZK Servidores™] - CS:GO Fake Competitive Ranks/Coins/Profile",
 	author = "Laam4",
 	description = "Show competitive ranks, coins and profile on scoreboard",
 	version = PLUGIN_VERSION,
@@ -55,7 +55,7 @@ public void OnPluginStart()
 	g_ShowProfileRanks = CreateConVar("sm_frank_profileranks", "1", "Show legit profile ranks on players, if enabled", _, true, 0.0, true, 1.0);
 	
 	RegAdminCmd("sm_setmm", Command_SetElo, ADMFLAG_BAN, "sm_setmm <#userid|name> <0-18>");
-	RegAdminCmd("sm_setcoin", Command_SetCoin, ADMFLAG_BAN, "sm_setcoin <#userid|name> <0-6033>");
+	RegAdminCmd("sm_setcoin", Command_SetCoin, ADMFLAG_BAN, "sm_setcoin <#userid|name> <0-6034>");
 	RegAdminCmd("sm_setprofile", Command_SetProfile,  ADMFLAG_BAN, "sm_setprofile <#userid|name> <0-40>");
 	
 	RegConsoleCmd("sm_mm", Command_EloMenu);
