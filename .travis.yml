@@ -19,13 +19,13 @@ before_install:
   - mkdir build-env
 
 install:
-  - cd build-env
-  - wget http://sourcemod.gameconnect.net/files/sourcemod-$SOURCEMOD-linux.tar.gz
-  - tar -xzvf sourcemod-$SOURCEMOD-linux.tar.gz
-  - cd ../
-  - find build-env/addons/sourcemod/scripting/ -name "*.sp" -type f -delete
-  - cp -rv $SCRIPTING/. build-env/addons/sourcemod/scripting/
-  - cp -rv $INCLUDE/. build-env/addons/sourcemod/scripting/include/
+    - SMPACKAGE="http://sourcemod.net/latest.php?os=linux&version=${SMVERSION}"
+    - wget $SMPACKAGE
+    - tar xfz $(basename $SMPACKAGE)
+    - cd addons/sourcemod/scripting/
+    - chmod +x spcomp
+    - PATH+=":$PWD"
+    - cd include
 
 before_script:
   - chmod +rx build-env/addons/sourcemod/scripting/spcomp
