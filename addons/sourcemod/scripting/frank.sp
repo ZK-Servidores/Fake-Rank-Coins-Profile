@@ -38,10 +38,10 @@ ConVar g_ShowProfileRanks;
 
 public Plugin myinfo = {
 	name = "[ZK Servidores™] - CS:GO Fake Competitive Ranks/Coins/Profile",
-	author = "Laam4",
+	author = "Laam4, crashzk",
 	description = "Show competitive ranks, coins and profile on scoreboard",
 	version = PLUGIN_VERSION,
-	url = "https://forums.alliedmods.net/showthread.php?p=2265799"
+	url = "https://github.com/zkservidores-clientes"
 };
 
 public void OnPluginStart()
