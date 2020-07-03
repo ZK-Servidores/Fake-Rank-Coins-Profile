@@ -37,7 +37,7 @@ ConVar g_ShowCoins;
 ConVar g_ShowProfileRanks;
 
 public Plugin myinfo = {
-	name = "[ZK Servidores™] - CS:GO Fake Competitive Ranks/Coins/Profile",
+	name = "[ZK Servidores™] CS:GO Fake Competitive Ranks/Coins/Profile",
 	author = "Laam4, crashzk",
 	description = "Show competitive ranks, coins and profile on scoreboard",
 	version = PLUGIN_VERSION,
