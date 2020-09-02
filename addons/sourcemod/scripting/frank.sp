@@ -7,7 +7,7 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#define PLUGIN_VERSION "1.2.1"
+#define PLUGIN_VERSION "1.2.2"
 
 bool g_bIsCoin[MAXPLAYERS+1];
 bool g_bIsProfileRank[MAXPLAYERS+1];
@@ -55,12 +55,19 @@ public void OnPluginStart()
 	g_ShowProfileRanks = CreateConVar("sm_frank_profileranks", "1", "Show legit profile ranks on players, if enabled", _, true, 0.0, true, 1.0);
 	
 	RegAdminCmd("sm_setmm", Command_SetElo, ADMFLAG_BAN, "sm_setmm <#userid|name> <0-18>");
-	RegAdminCmd("sm_setcoin", Command_SetCoin, ADMFLAG_BAN, "sm_setcoin <#userid|name> <0-6034>");
+	RegAdminCmd("sm_setcoins", Command_SetCoin, ADMFLAG_BAN, "sm_setcoin <#userid|name> <0-6034>");
 	RegAdminCmd("sm_setprofile", Command_SetProfile,  ADMFLAG_BAN, "sm_setprofile <#userid|name> <0-40>");
 	
 	RegConsoleCmd("sm_mm", Command_EloMenu);
+	RegConsoleCmd("sm_patente", Command_EloMenu);
 	RegConsoleCmd("sm_coins", Command_CoinMenu);
+	RegConsoleCmd("sm_coin", Command_CoinMenu);
+	RegConsoleCmd("sm_medalhas", Command_CoinMenu);
+	RegConsoleCmd("sm_medalha", Command_CoinMenu);
+	RegConsoleCmd("sm_moedas", Command_CoinMenu);
+	RegConsoleCmd("sm_moeda", Command_CoinMenu);
 	RegConsoleCmd("sm_profile", Command_ProfileMenu);
+	RegConsoleCmd("sm_perfil", Command_ProfileMenu);
 	
 	AutoExecConfig(true, "frank");
 	
