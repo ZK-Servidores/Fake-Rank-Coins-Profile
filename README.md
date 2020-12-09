@@ -4,9 +4,9 @@ Player can use Fake Rank, Coins & Profile Level in server.
 ## Commads
 **CVARS** | **Description** | **Commands** |
 :--------: | -------- | :--------: |
-**sm_mm` | Opens the Rank menu. | !mm, !patente |
-**sm_coins` | Opens the Coins menu. | !coins, !coin, !medalhas, !medalha, !moedas, !moeda |
-**sm_profile` | Opens the Profile Level menu. | !profile, !perfil |
+**sm_mm** | Opens the Rank menu. | !mm, |
+**sm_coins** | Opens the Coins menu. | !coins, !coin, |
+**sm_profile** | Opens the Profile Level menu. | !profile, |
 
 ## Cvars
 - `sm_setmm <#userid | name> <0-18>` - Select a Rank for the chosen player;
