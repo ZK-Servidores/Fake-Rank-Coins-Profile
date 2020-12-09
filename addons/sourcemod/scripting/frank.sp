@@ -59,15 +59,10 @@ public void OnPluginStart()
 	RegAdminCmd("sm_setprofile", Command_SetProfile,  ADMFLAG_BAN, "sm_setprofile <#userid|name> <0-40>");
 	
 	RegConsoleCmd("sm_mm", Command_EloMenu);
-	RegConsoleCmd("sm_patente", Command_EloMenu);
 	RegConsoleCmd("sm_coins", Command_CoinMenu);
 	RegConsoleCmd("sm_coin", Command_CoinMenu);
-	RegConsoleCmd("sm_medalhas", Command_CoinMenu);
-	RegConsoleCmd("sm_medalha", Command_CoinMenu);
-	RegConsoleCmd("sm_moedas", Command_CoinMenu);
-	RegConsoleCmd("sm_moeda", Command_CoinMenu);
 	RegConsoleCmd("sm_profile", Command_ProfileMenu);
-	RegConsoleCmd("sm_perfil", Command_ProfileMenu);
+
 	
 	AutoExecConfig(true, "frank");
 	

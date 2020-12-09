@@ -2,9 +2,9 @@
 {
 	"Rank_Menu"
 	{
-		"en"		"Choose your Rank:"
-		"pt"		"Escolha seu Rank:"
-		"zho"		"選擇你的牌位:"
+		"en"		"Choose your Rank"
+		"pt"		"Escolha seu Rank"
+		"zho"		"選擇你的牌位"
 	}
 	"Rank_Set"
 	{
@@ -14,9 +14,9 @@
 	}
 	"ProfileRank_Menu"
 	{
-		"en"		"Choose your Profile Level:"
-		"pt"		"Escolha seu Nível de Perfil:"
-		"zho"		"選擇你的個人檔案等級:"
+		"en"		"Choose your Profile Level"
+		"pt"		"Escolha seu Nível de Perfil"
+		"zho"		"選擇你的個人檔案等級"
 	}
 	"ProfileRank_Set"
 	{
@@ -26,9 +26,9 @@
 	}
 	"Coin_Menu"
 	{
-		"en"		"Choose your Coin:"
-		"pt"		"Escolha sua Medalha:"
-		"zho"		"選擇你的徽章:"
+		"en"		"Choose your Coin"
+		"pt"		"Escolha sua Medalha"
+		"zho"		"選擇你的徽章"
 	}
 	"Coin_Set"
 	{
